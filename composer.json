@@ -1,0 +1,17 @@
+{
+    "name": "iin/php-routers-simples",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eliaquin Araújo",
+            "email": "eliaquin.j.araujo@gmail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.4"
+    }
+}
