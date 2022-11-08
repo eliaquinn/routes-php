@@ -30,7 +30,8 @@ function load(string $controller, string $action)
 $router = [
   'GET' => [
     '/' => fn () => load('HomeController', 'index'),
-    '/contact' => fn () => load('ContactController', 'index')
+    '/contact' => fn () => load('ContactController', 'index'),
+    '/blog' => fn () => load('BlogController', 'blog')
   ],
   'POST' => [
     '/contact' => fn () => load('ContactController', 'store')

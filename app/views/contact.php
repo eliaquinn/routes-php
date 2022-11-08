@@ -1,4 +1,4 @@
-<?php $this->layout('master'); ?>
+<?php $this->layout('template'); ?>
 
 <h1>Pagina Contact</h1>
 
